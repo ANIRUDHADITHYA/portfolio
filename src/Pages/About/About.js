@@ -1,6 +1,4 @@
-import Navbar from "../../Components/Navabr/Navbar";
 import "./About.css";
-import about from "./../../Asserts/anirudhadithya.png"
 
 const About = () => {
     return (

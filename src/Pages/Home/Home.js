@@ -1,8 +1,8 @@
-import Navbar from "../../Components/Navabr/Navbar";
 import "./Home.css";
 import Typewriter from 'typewriter-effect';
 import Slide from '@mui/material/Slide';
 import Zoom from '@mui/material/Zoom';
+import { Link } from "react-router-dom"
 const Home = () => {
     return (
         <div>
@@ -32,7 +32,7 @@ const Home = () => {
                             enter: 1200,
                             exit: 2000,
                         }}>
-                            <a href="#">Hire Me</a>
+                            <Link to="#">Hire Me</Link>
 
                         </Zoom>
                         <Zoom in={true} timeout={{
@@ -40,7 +40,7 @@ const Home = () => {
                             enter: 1200,
                             exit: 2000,
                         }}>
-                            <a href="#">Download Resume</a>
+                            <Link to="#">Download Resume</Link>
 
                         </Zoom>
 
@@ -55,9 +55,9 @@ const Home = () => {
                     exit: 2000,
                 }}>
                     <div className="home-sci">
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <Link to="#"><i class="fa-brands fa-linkedin-in"></i></Link>
+                        <Link to="#"><i class="fa-brands fa-instagram"></i></Link>
+                        <Link to="#"><i class="fa-brands fa-twitter"></i></Link>
                     </div>
 
                 </Slide>
